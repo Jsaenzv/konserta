@@ -9,6 +9,10 @@ const HomePage = () => {
         <div className="homepage-container">
             <Nav />
             <Hero />
+            <div className="section">
+                <h2>Explore Our Technologies</h2>
+                <p>Discover our latest innovations, projects, and breakthroughs.</p>
+            </div>
             <Footer />
         </div>
     );

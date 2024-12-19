@@ -1,4 +1,12 @@
 /* Nav.css */
+@font-face {
+  font-family: 'D-DIN';
+  src: url('../../Fonts/D-DIN/D-DIN-Bold.woff2') format('woff2'),
+       url('../../Fonts/D-DIN/D-DIN-Bold.woff') format('woff'),
+       url('../../Fonts/D-DIN/D-DIN-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 
 /* Ensure the navbar is positioned above the video */
 .navbar {
@@ -10,39 +18,58 @@
     align-items: center;
     padding: 20px 50px;
     box-sizing: border-box;
-    z-index: 1; /* Ensure it appears above the video */
-  }
-  
-  /* Style for the logo */
-  .navbar-logo img {
+    z-index: 10; /* Ensure it appears above the video */
+}
+
+/* Style for the logo */
+.navbar-logo img {
     height: 40px; /* Adjust size as needed */
-  }
-  
-  /* Style for the navigation links */
-  .navbar-links {
+}
+
+/* Style for the navigation links */
+.navbar-links {
     list-style: none;
     display: flex;
     gap: 30px; /* Space between links */
-  }
-  
-  .navbar-links li {
+}
+
+.navbar-links li {
     display: inline;
-  }
-  
-  .navbar-links a {
-    text-decoration: none;
-    color: white; /* White text color */
-    font-size: 16px;
-    font-weight: 500;
-    transition: color 0.3s ease;
-  }
-  
-  .navbar-links a:hover {
+}
+
+.navbar-links a {
+    position: relative;
+    font-family: 'D-DIN', Arial, Verdana, sans-serif; /* Ensure D-DIN is loaded correctly */
+    font-size: 14px;
+    font-weight: bold; /* Apply the bold weight */
+    line-height: 28px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: color 0.25s ease, opacity 0.6s linear;
+    opacity: 1; /* Initial opacity value */
+}
+
+.navbar-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust as needed */
+    width: 0;
+    height: 2px; /* Adjust as needed */
+    background-color: #fff; /* Underline color */
+    transition: width 0.25s ease;
+}
+
+.navbar-links a:hover {
     color: #d1d1d1; /* Slightly lighter color on hover */
-  }
-  
-  .navbar-links a.active {
+    opacity: 0.95; /* Change opacity on hover */
+}
+
+.navbar-links a:hover::after {
+    width: 100%;
+}
+
+.navbar-links a.active {
     color: #d1d1d1; /* Example active color */
     /* Add additional active styles as needed */
-  }
-  
+}

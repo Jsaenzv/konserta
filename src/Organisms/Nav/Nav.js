@@ -11,29 +11,34 @@ const Nav = () => {
       <ul className="navbar-links">
         <li>
           <NavLink
-            to="/"
+            to="/Streaming"
             className={({ isActive }) => (isActive ? 'active' : '')}
           >
-            Home
+            Streaming
           </NavLink>
         </li>
         <li>
           <NavLink
-            to="/about"
+            to="/Contacto"
             className={({ isActive }) => (isActive ? 'active' : '')}
           >
-            About
+            Contacto
           </NavLink>
         </li>
         <li>
           <NavLink
-            to="/services"
+            to="/Jamming"
             className={({ isActive }) => (isActive ? 'active' : '')}
           >
-            Services
+            Jamming
           </NavLink>
         </li>
-        {/* Add more links as needed */}
+        <li>
+          <NavLink to="/Entradas"
+          className={({ isActive }) => (isActive ? 'active' : '')}>
+            Entradas
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
