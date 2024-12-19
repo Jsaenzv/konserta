@@ -13,6 +13,7 @@ const Nav = () => {
           <NavLink
             to="/Streaming"
             className={({ isActive }) => (isActive ? 'active' : '')}
+            smooth={true}
           >
             Streaming
           </NavLink>
@@ -21,6 +22,7 @@ const Nav = () => {
           <NavLink
             to="/Contacto"
             className={({ isActive }) => (isActive ? 'active' : '')}
+            smooth={true}
           >
             Contacto
           </NavLink>
@@ -29,13 +31,16 @@ const Nav = () => {
           <NavLink
             to="/Jamming"
             className={({ isActive }) => (isActive ? 'active' : '')}
+            smooth={true}
           >
             Jamming
           </NavLink>
         </li>
         <li>
           <NavLink to="/Entradas"
-          className={({ isActive }) => (isActive ? 'active' : '')}>
+          className={({ isActive }) => (isActive ? 'active' : '')}
+          smooth={true}
+          >
             Entradas
           </NavLink>
         </li>

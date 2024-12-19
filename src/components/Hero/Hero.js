@@ -16,19 +16,21 @@ const Hero = () => {
 
   return (
     <section className="hero-section">
-  <video
-    ref={videoRef}
-    className="hero-video"
-    muted
-    autoPlay
-    loop
-    playsInline
-    disablepictureinpicture
-  >
-    <source src="/konserta.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-</section>
+      <Parallax y={[-20, 20]} tagOuter="figure">
+        <video
+          ref={videoRef}
+          className="hero-video"
+          muted
+          autoPlay
+          loop
+          playsInline
+          disablepictureinpicture
+        >
+          <source src="/konserta.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+    </Parallax>
+  </section>
 
   );
 };
