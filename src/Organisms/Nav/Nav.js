@@ -1,46 +1,24 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Nav.css";
+import "../../Molecules/NavLink/NavLinkcomp";
+import NavLinkcomp from "../../Molecules/NavLink/NavLinkcomp";
 
 const Nav = () => {
   return (
     <nav className="navbar">
       <ul className="navbar-links">
         <li>
-          <NavLink
-            to="/Streaming"
-            className={({ isActive }) => (isActive ? "active" : "")}
-            smooth={"true"}
-          >
-            Streaming
-          </NavLink>
+          <NavLinkcomp to="/Streaming" label={"Streaming"}></NavLinkcomp>
         </li>
         <li>
-          <NavLink
-            to="/Contacto"
-            className={({ isActive }) => (isActive ? "active" : "")}
-            smooth={"true"}
-          >
-            Contacto
-          </NavLink>
+          <NavLinkcomp to="/Contacto" label={"Contacto"}></NavLinkcomp>
         </li>
         <li>
-          <NavLink
-            to="/Jamming"
-            className={({ isActive }) => (isActive ? "active" : "")}
-            smooth={"true"}
-          >
-            Jamming
-          </NavLink>
+          <NavLinkcomp to="/Jamming" label={"Jamming"}></NavLinkcomp>
         </li>
         <li>
-          <NavLink
-            to="/Entradas"
-            className={({ isActive }) => (isActive ? "active" : "")}
-            smooth={"true"}
-          >
-            Entradas
-          </NavLink>
+          <NavLinkcomp to="/Entradas" label={"Entradas"}></NavLinkcomp>
         </li>
       </ul>
     </nav>

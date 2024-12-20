@@ -1,0 +1,53 @@
+/* Nav.css */
+@font-face {
+    font-family: 'D-DIN';
+    src: url('../../Fonts/D-DIN/D-DIN-Bold.woff2') format('woff2'),
+         url('../../Fonts/D-DIN/D-DIN-Bold.woff') format('woff'),
+         url('../../Fonts/D-DIN/D-DIN-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Style for the navigation links */
+  .navbar-links {
+      list-style: none;
+      display: flex;
+      gap: 80px; /* Space between links */
+  }
+  
+  .navbar-links li {
+      display: inline;
+  }
+  
+  .navbar-links a {
+      position: relative;
+      font-family: 'D-DIN', Arial, Verdana, sans-serif; /* Ensure D-DIN is loaded correctly */
+      font-size: 14px;
+      font-weight: bold; /* Apply the bold weight */
+      line-height: 28px;
+      color: #fff;
+      text-transform: uppercase;
+      transition: color 0.25s ease;
+      transition: opacity 0.6s linear;
+      opacity: 1; /* Initial opacity value */
+  }
+  
+  .navbar-links a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -5px; /* Adjust as needed */
+      width: 0;
+      height: 2px; /* Adjust as needed */
+      background-color: #fff; /* Underline color */
+      transition: width 0.25s ease;
+  }
+  
+  .navbar-links a:hover {
+      color: #d1d1d1; /* Slightly lighter color on hover */
+      opacity: 0.95; /* Change opacity on hover */
+  }
+  
+  .navbar-links a:hover::after {
+      width: 100%;
+  }
