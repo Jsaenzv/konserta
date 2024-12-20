@@ -26,5 +26,6 @@
   color: #000; /* Change text color on hover */
   background-color: #fff;
   transition: color 0.4s, background-color 0.4s;
+  transform: scale(1.1);
 }
 
