@@ -16,7 +16,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    justify-content: center;
+    padding: 40px;
     box-sizing: border-box;
     z-index: 10; /* Ensure it appears above the video */
 }
@@ -30,7 +31,7 @@
 .navbar-links {
     list-style: none;
     display: flex;
-    gap: 30px; /* Space between links */
+    gap: 80px; /* Space between links */
 }
 
 .navbar-links li {
@@ -45,7 +46,8 @@
     line-height: 28px;
     color: #fff;
     text-transform: uppercase;
-    transition: color 0.25s ease, opacity 0.6s linear;
+    transition: color 0.25s ease;
+    transition: opacity 0.6s linear;
     opacity: 1; /* Initial opacity value */
 }
 

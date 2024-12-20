@@ -51,13 +51,3 @@ body {
     margin: 0;
     color: #666;
 }
-
-.footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}

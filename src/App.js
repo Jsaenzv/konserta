@@ -6,7 +6,6 @@ import Entradas from './Pages/Entradas/Entradas';
 import Streaming from './Pages/Streaming/Streaming';
 import Productora from './Pages/Productora/Productora';
 import Jamming from './Pages/Jamming/Jamming';
-
 import './styles/App.css'
 
 

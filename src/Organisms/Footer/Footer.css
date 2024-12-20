@@ -1,26 +1,29 @@
+@font-face {
+  font-family: "D-DIN";
+  src: url("../../Fonts/D-DIN/D-DIN-Bold.woff2") format("woff2"),
+    url("../../Fonts/D-DIN/D-DIN-Bold.woff") format("woff"),
+    url("../../Fonts/D-DIN/D-DIN-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 .footer {
-    background: #000000;
-    color: #ffffff;
-    padding: 40px 50px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .footer-section {
-    margin-bottom: 20px;
-  }
-  
-  .footer-link {
-    color: #ffffff;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    display: block;
-    transition: color 0.3s;
-  }
-  
-  .footer-link:hover {
-    color: #d0d0d0;
-  }
-  
+  padding: 20px;
+  background-color: #111; /* Darker background color */
+  color: whitesmoke; /* Light grey text color for better contrast */
+  text-align: center;
+  position: static;
+  width: 100%;
+  font-family: sans-serif; /* Clean and minimalist font */
+  font-size: 14px; /* Slightly smaller font size for a minimalist look */
+}
+
+.footer a {
+  color: #f1f1f1; /* Matching link color */
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 10px; /* Add some spacing between links */
+}
+
+.footer a:hover {
+  color: #ddd; /* Slightly lighter color on hover */
+}

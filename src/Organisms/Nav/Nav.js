@@ -1,19 +1,16 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import './Nav.css';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./Nav.css";
 
 const Nav = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
-        <img src="path_to_logo" alt="Logo" />
-      </div>
       <ul className="navbar-links">
         <li>
           <NavLink
             to="/Streaming"
-            className={({ isActive }) => (isActive ? 'active' : '')}
-            smooth={true}
+            className={({ isActive }) => (isActive ? "active" : "")}
+            smooth={"true"}
           >
             Streaming
           </NavLink>
@@ -21,8 +18,8 @@ const Nav = () => {
         <li>
           <NavLink
             to="/Contacto"
-            className={({ isActive }) => (isActive ? 'active' : '')}
-            smooth={true}
+            className={({ isActive }) => (isActive ? "active" : "")}
+            smooth={"true"}
           >
             Contacto
           </NavLink>
@@ -30,16 +27,17 @@ const Nav = () => {
         <li>
           <NavLink
             to="/Jamming"
-            className={({ isActive }) => (isActive ? 'active' : '')}
-            smooth={true}
+            className={({ isActive }) => (isActive ? "active" : "")}
+            smooth={"true"}
           >
             Jamming
           </NavLink>
         </li>
         <li>
-          <NavLink to="/Entradas"
-          className={({ isActive }) => (isActive ? 'active' : '')}
-          smooth={true}
+          <NavLink
+            to="/Entradas"
+            className={({ isActive }) => (isActive ? "active" : "")}
+            smooth={"true"}
           >
             Entradas
           </NavLink>
