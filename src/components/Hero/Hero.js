@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Card from '../../Molecules/Card/Card';
 import './Hero.css';
 
@@ -12,19 +12,19 @@ const Hero = () => {
       <Card
         handleClick={handleClick}
         title="Konserta & Niceto Bar, 2024"
-        imageSrc="/imagen.jpg"
+        imageSrc="/niceto_bar.jpg"
         buttonContent="Ver más"
       />
       <Card
         handleClick={handleClick}
         title="Konserta Jamming Sessions"
-        imageSrc="/imagen2.jpg"
+        imageSrc="/jam_grande_IV.jpg"
         buttonContent="Ver más"
       />
       <Card
         handleClick={handleClick}
         title="Konserta productora"
-        imageSrc="/imagen3.jpg"
+        imageSrc="/niceto_bar_b&w.jpg"
         buttonContent="Ver más"
       />
     </div>

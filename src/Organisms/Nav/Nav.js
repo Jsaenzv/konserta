@@ -12,7 +12,7 @@ const Nav = () => {
           <NavLinkcomp to="/Streaming" label={"Streaming"}></NavLinkcomp>
         </li>
         <li>
-          <NavLinkcomp to="/Contacto" label={"Contacto"}></NavLinkcomp>
+          <NavLinkcomp to="/Productora" label={"Productora"}></NavLinkcomp>
         </li>
         <li>
           <NavLinkcomp to="/Jamming" label={"Jamming"}></NavLinkcomp>
