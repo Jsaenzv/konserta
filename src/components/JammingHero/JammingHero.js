@@ -13,7 +13,7 @@ const JammingHero = () => {
       <Card_2
         title="Jamming Sessions en Bares"
         imageSrc="/niceto_bar_b&w.jpg"
-        subtitle="En estos eventos nos fusionamos con distintos bares de Buenos Aires para hacer un Jam único. Cada fecha contamos con distintos artistas que bienen a tocar y mostrar lo mejor de ellos."
+        subtitle="En estos eventos nos fusionamos con distintos bares de Buenos Aires para hacer un Jam único. Cada fecha contamos con distintos artistas que vienen a tocar y mostrar lo mejor de ellos."
       />
       <Card
         handleClick={handleClick}
