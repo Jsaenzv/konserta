@@ -1,0 +1,33 @@
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+  }
+  
+.card_2-section {
+    font-family: "D-DIN",sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* Add text shadow */
+    background-color: rgba(0, 0, 0, 0.2); /* Add semi-transparent background */
+}
+
+.card_2-title {
+    margin-bottom: 10rem;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9); /* Add text shadow */
+    font-size: 42px;
+    padding: 10px; /* Add padding for better spacing */
+    text-transform: uppercase;
+}
+
+.card_2-subtitle {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9); /* Add text shadow */
+    font-size: 16px;
+    margin-left: 14rem;
+    margin-right: 14rem;
+    margin-bottom: 8rem;
+    padding: 10px; /* Add padding for better spacing */
+}

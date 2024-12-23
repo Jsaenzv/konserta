@@ -11,7 +11,7 @@ html {
     width: 50%;
     float: left;
     box-sizing: border-box;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add text shadow */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* Add text shadow */
     background-color: rgba(0, 0, 0, 0.2); /* Add semi-transparent background */
 }
 

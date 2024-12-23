@@ -1,9 +1,13 @@
 import React from "react";
 import Card_3 from "../../Molecules/Card_3/Card_3";
-import "./../JammingHero/JammingHero.css";
+import "./JammingHero.css";
 
-const handleClick = () => {
-  window.location.href = "https://www.youtube.com";
+const clickJammingBares = () => {
+  window.location.href = "/JammingBares";
+};
+
+const clickJammingDescampados = () => {
+  window.location.href = "/JammingDescampados";
 };
 
 const JammingHero = () => {
@@ -11,17 +15,17 @@ const JammingHero = () => {
     <div className="card">
       <Card_3
         title={"Jamming Sessions en Bares"}
-        imageSrc={"/niceto_bar_b&w.jpg"}
+        imageSrc={"/la_dama_de_bolini_I.jpg"}
         subtitle={""}
         buttonContent={"Ver Jammings"}
-        handleClick={handleClick}
+        handleClick={clickJammingBares}
       />
       <Card_3
         title={"Jamming Sessions en Descampados"}
-        imageSrc={"/jam_grande_vertical.jpg"}
+        imageSrc={"/jam_grande_IV.jpg"}
         subtitle={""}
         buttonContent={"Ver Jammings"}
-        handleClick={handleClick}
+        handleClick={clickJammingDescampados}
       />
     </div>
   );

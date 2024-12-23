@@ -9,13 +9,13 @@ const Nav = () => {
     <nav className="navbar">
       <ul className="navbar-links">
         <li>
-          <NavLinkcomp to="/Streaming" label={"Streaming"}></NavLinkcomp>
+          <NavLinkcomp to="/Jamming" label={"Jamming"}></NavLinkcomp>
         </li>
         <li>
           <NavLinkcomp to="/Productora" label={"Productora"}></NavLinkcomp>
         </li>
         <li>
-          <NavLinkcomp to="/Jamming" label={"Jamming"}></NavLinkcomp>
+          <NavLinkcomp to="/Streaming" label={"Streaming"}></NavLinkcomp>
         </li>
         <li>
           <NavLinkcomp to="/Entradas" label={"Entradas"}></NavLinkcomp>
