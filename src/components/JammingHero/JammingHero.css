@@ -1,0 +1,30 @@
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+  }
+  
+.card_3-section {
+    font-family: "D-DIN",sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add text shadow */
+    background-color: rgba(0, 0, 0, 0.2); /* Add semi-transparent background */
+}
+
+.card_3-title {
+    margin-bottom: 40px;
+    font-size: 32px;
+    padding: 10px; /* Add padding for better spacing */
+}
+
+.card-button {
+    padding: 15px 40px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.8); /* Add semi-transparent background */
+    color: white; /* Change text color to white */
+}

@@ -17,7 +17,7 @@ const Card_3 = ({ title, imageSrc, subtitle, buttonContent, handleClick }) => {
     );
 
     const elements = document.querySelectorAll(
-      ".card_3-title, .card_3-subtitle, .card_3-image"
+      ".card_3-title, .card_3-subtitle, .card_3-image, .card-button"
     ); // Observe card_3 titles, buttons, and images
     elements.forEach((el) => observer.observe(el));
 
@@ -51,7 +51,7 @@ Card_3.propTypes = {
   imageSrc: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   buttonContent: PropTypes.string.isRequired,
-  handleClick: PropTypes.func.isRequired
+  handleClick: PropTypes.func.isRequired,
 };
 
 export default Card_3;

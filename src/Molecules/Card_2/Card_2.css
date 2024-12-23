@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "D-DIN";
+  src: url("../../Fonts/D-DIN/D-DIN-Bold.woff2") format("woff2"),
+    url("../../Fonts/D-DIN/D-DIN-Bold.woff") format("woff"),
+    url("../../Fonts/D-DIN/D-DIN-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 .card_2-section {
     position: relative;
     width: 100%;
@@ -42,8 +51,10 @@
   }
   
   .card_2-title {
-    font-size: 26px;
-    font-family: sans-serif;
+    margin-bottom: 20%;
+    font-size: 30px;
+    font-family: "D-DIN",sans-serif;
+    text-transform: uppercase;
     font-weight: bold;
     text-align: center;
     opacity: 0; /* Start hidden */
