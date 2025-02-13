@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../../Molecules/Card/Card";
-import Card_3 from "../../Molecules/Card_3/Card_3";
+import Card_5 from "../../Molecules/Card_5/Card_5";
 import "./../Hero/Hero.css";
 
 const handleClick = () => {
@@ -10,7 +10,7 @@ const handleClick = () => {
 const EntradasHero = () => {
   return (
     <div className="card">
-      <Card_3
+      <Card_5
         title="27 de Julio, Palermo, Buenos Aires"
         imageSrc="/la_dama_de_bolini_III.jpg"
         subtitle="¿Te lo vas a perder?"
